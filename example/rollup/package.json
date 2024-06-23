@@ -1,0 +1,21 @@
+{
+  "name": "blockcore-ws-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blockcore-ws": "file:../../",
+    "ws": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "*",
+    "rollup": "*"
+  }
+}

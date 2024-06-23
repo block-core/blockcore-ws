@@ -1,0 +1,21 @@
+{
+  "name": "blockcore-ws-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blockcore-ws": "file:../../",
+    "ws": "*"
+  },
+  "devDependencies": {
+    "webpack": "*",
+    "webpack-cli": "*"
+  }
+}
