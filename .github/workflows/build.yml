@@ -38,6 +38,10 @@ jobs:
       run: |
         npm install
 
+    - name: Package
+      run: |
+        npm pack
+        
     - uses: actions/upload-artifact@v1
       with:
         name: ${{env.PROJECT_NAME}}-preview-${{env.VERSION}}
