@@ -54,5 +54,5 @@ jobs:
         files: "${{env.RELEASE_NAME}}"
         draft: true
         prerelease: false
-        name: "Blockcore Websocket (${{env.VERSION}})"
+        name: "Blockcore WebSocket (${{env.VERSION}})"
         tag: ${{env.VERSION}}
