@@ -17,6 +17,10 @@
     "websocket",
     "ws"
   ],
+  "scripts": {
+    "version": "node -p \"require('./package.json').version\"",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
   "author": "blockcore",
   "license": "MIT",
   "bugs": {
