@@ -1,6 +1,6 @@
 {
-  "name": "blockcore-ws",
-  "version": "1.0.0",
+  "name": "@blockcore/ws",
+  "version": "0.0.1",
   "description": "Blockcore-ws is a WebSocket library designed to facilitate seamless WebSocket communication across various environments.",
   "main": "node.js",
   "types": "index.d.ts",

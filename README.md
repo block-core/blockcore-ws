@@ -1,30 +1,30 @@
-### Blockcore WebSocket (blockcore-ws)
+### Blockcore WebSocket (blockcore-ws) 🌐
 
 **Blockcore WebSocket (blockcore-ws)** is a WebSocket library designed to provide an easy and seamless way to implement WebSocket communication in various environments. It supports both Node.js and browser environments, making it versatile for different use cases.
 
-#### Features:
-- Easy to use API
-- Supports both Node.js and browser environments
-- Lightweight and efficient
+#### Features ✨
+- 🚀 Easy to use API
+- 🌍 Supports both Node.js and browser environments
+- 💡 Lightweight and efficient
 
-### Installation
+### Installation 📦
 
 To install the `blockcore-ws` library, use the following npm command:
 
 ```sh
-npm install blockcore-ws
+npm install @blockcore/ws
 ```
 
-### Usage
+### Usage 🚀
 
-#### Node.js Example
+#### Node.js Example 🖥️
 
 Here is an example of how to use `blockcore-ws` in a Node.js environment:
 
 1. Create a file named `app.js` and add the following code:
 
    ```js
-   import WebSocket from 'blockcore-ws';
+   import WebSocket from '@blockcore/ws';
 
    const ws = new WebSocket('wss://echo.websocket.org');
 
@@ -56,7 +56,7 @@ Here is an example of how to use `blockcore-ws` in a Node.js environment:
        "start": "node app.js"
      },
      "dependencies": {
-       "blockcore-ws": "^1.0.0"
+       "@blockcore/ws": "^0.0.1"
      }
    }
    ```
@@ -68,7 +68,7 @@ Here is an example of how to use `blockcore-ws` in a Node.js environment:
    npm start
    ```
 
-#### Browser Example
+#### Browser Example 🌐
 
 To use `blockcore-ws` in a browser environment, follow these steps:
 
@@ -115,9 +115,9 @@ To use `blockcore-ws` in a browser environment, follow these steps:
 
 3. Open the served HTML file in your browser to see the WebSocket in action.
 
-### Running Examples
+### Running Examples 🛠️
 
-#### Webpack Example
+#### Webpack Example 📦
 
 The `blockcore-ws` library includes a Webpack example to demonstrate how to bundle and use the library with Webpack.
 
@@ -158,4 +158,4 @@ The `blockcore-ws` library includes a Webpack example to demonstrate how to bund
    http-server
    ```
 
-With these instructions, you should be able to install, run, and use the `blockcore-ws` library effectively in both Node.js and browser environments.
+With these instructions, you should be able to install, run, and use the `blockcore-ws` library effectively in both Node.js and browser environments. Happy coding! 🎉
